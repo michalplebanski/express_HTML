@@ -1,0 +1,14 @@
+doctype html
+html
+	head
+		meta(charset='utf-8')
+		title Hello world
+	body
+		form(action='http://localhost:3000/auth/google', method='GET')
+			p 
+				| First-name: 
+				input(type='text', name='first_name' )
+			p 
+				| Last-name: 
+				input(type='text', name='last_name')
+			input(type='submit', value='submit')
